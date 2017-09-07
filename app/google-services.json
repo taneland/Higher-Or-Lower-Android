@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "642148503366",
+    "project_id": "betray-your-friends-98367322"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642148503366:android:e44ad0803daaa16f",
+        "android_client_info": {
+          "package_name": "com.example.fredriktaneland.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642148503366-dml4q0ic8iqgu5rtc5pin3ioh6kmhme0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fredriktaneland.project",
+            "certificate_hash": "437D860E2463A52E2B763C3EECCD38C06F3C9E79"
+          }
+        },
+        {
+          "client_id": "642148503366-lm2q7khgohohqmmgmleiq2c766g52me5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCL2iFW3DtyRMYvE5wXfnPXsY0YcQhn20"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

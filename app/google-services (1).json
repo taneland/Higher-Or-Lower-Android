@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "117179591236",
+    "project_id": "betraying-155411"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117179591236:android:e44ad0803daaa16f",
+        "android_client_info": {
+          "package_name": "com.example.fredriktaneland.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117179591236-1859f9r47fhndll900qo6conj40rajo3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fredriktaneland.project",
+            "certificate_hash": "457D860E2463A52E2B763C3EECCD38C06F3C9E79"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE0tDUQgeLem79iyqvvlA4RqR8flmE5XM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

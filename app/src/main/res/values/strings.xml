@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="app_name">Higher or Lower</string>
+    <string name="game_title">Higher or Lower</string>
+    <string name="game_blurb">Högre eller Lägre</string>
+
+    <string name="quick_game">Quick game</string>
+    <string name="invite_players">Invite friends</string>
+    <string name="see_invitations">See invitations</string>
+    <string name="quick_game_explanation">Challenge a random opponent.</string>
+    <string name="invite_players_explanation">Invite friends to play a game.</string>
+    <string name="see_invitations_explanation">See who is inviting you right now.</string>
+    <string name="inv_popup_text">Incoming invitation!</string>
+    <string name="accept_popup_invite">Accept!</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="instructions">Gissa om nästa siffra är högre eller lägre</string>
+    <string name="game_problem">An error occurred while starting the game. Please try again.</string>
+    <string name="oneText">Higher</string>
+    <string name="twoText">Lower</string>
+    <string name="is_inviting_you">is challenging you to a game!</string>
+    <string name="signin_other_error">There was an issue with sign in. Please try again later.</string>
+    <string name="single_player">single</string>
+    <string name="single_player_explanation">single</string>
+</resources>

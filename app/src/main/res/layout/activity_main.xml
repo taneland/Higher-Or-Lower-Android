@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- SIGN-IN SCREEN -->
+    <LinearLayout android:id="@+id/screen_sign_in" style="@style/SignScreen">
+        <TextView style="@style/GameTitle" />
+        <TextView style="@style/GameBlurb" />
+
+        <Button android:id="@+id/button_single_player"
+            style="@style/MainScreenButton"
+            android:text="@string/single_player" />
+        <com.google.android.gms.common.SignInButton android:id="@+id/button_sign_in"
+            style="@style/SignInButton" />
+    </LinearLayout>
+
+    <!-- MAIN SCREEN -->
+    <LinearLayout android:id="@+id/screen_main" style="@style/SignScreen">
+        <TextView style="@style/GameTitle" />
+
+        <Button android:id="@+id/button_invite_players"
+            style="@style/MainScreenButton"
+            android:text="@string/invite_players" />
+
+        <Button android:id="@+id/button_see_invitations"
+            style="@style/MainScreenButton"
+            android:text="@string/see_invitations" />
+
+        <Button android:id="@+id/button_sign_out"
+            style="@style/SignOutButton"
+            android:text="@string/sign_out" />
+    </LinearLayout>
+
+    <!-- INVITATION POPUP -->
+    <LinearLayout android:id="@+id/invitation_popup" style="@style/InvPopup">
+        <TextView android:id="@+id/incoming_invitation_text" style="@style/InvPopupText" />
+        <Button android:id="@+id/button_accept_popup_invitation"
+            style="@style/InvPopupButton"
+            android:text="@string/accept_popup_invite" />
+    </LinearLayout>
+
+    <!-- "PLEASE WAIT" SCREEN -->
+    <LinearLayout android:id="@+id/screen_wait" style="@style/SignScreen">
+        <TextView style="@style/Blurb" android:text="@string/please_wait" />
+    </LinearLayout>
+
+    <!-- GAMEPLAY SCREEN -->
+    <LinearLayout android:id="@+id/screen_game" style="@style/SignScreen">
+        <TextView android:id="@+id/rules" style="@style/Instructions" />
+        <TextView android:id="@+id/randomNumber" style="@style/ScoreDisplay" />
+        <TextView android:id="@+id/nextNumber" style="@style/ScoreDisplay2" />
+        <TextView android:id="@+id/my_score" style="@style/ScoreDisplay" />
+        <Button android:id="@+id/button_high"
+            style="@style/GameButton"
+            android:text="@string/oneText"
+            android:layout_marginBottom="20dp" />
+        <Button android:id="@+id/button_low"
+            style="@style/GameButton2"
+            android:text="@string/twoText"
+            android:layout_marginBottom="20dp" />
+        <TextView android:id="@+id/countdown" style="@style/FigureLabel" />
+
+
+        <LinearLayout style="@style/ScoresBox">
+            <TextView android:id="@+id/score0" style="@style/ScoreText" />
+            <TextView android:id="@+id/score1" style="@style/ScoreText" />
+            <TextView android:id="@+id/score2" style="@style/ScoreText" />
+            <TextView android:id="@+id/score3" style="@style/ScoreText" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
